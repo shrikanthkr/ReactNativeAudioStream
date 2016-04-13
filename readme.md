@@ -11,3 +11,7 @@ run **react-native run-ios**
 To Edit on native part
 Open file **AudioStream2.xcworkspace** on xcode 
 
+----
+
+
+
