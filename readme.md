@@ -24,9 +24,9 @@ I created two files
 `
 @interface RCTCustom : NSObject <RCTBridgeModule>
 @end
-`
-which am going to implement and write our custom function.
----
+` which am going to implement and write our custom function.
+
+
 Once done get to the .m file where the actual implementation happens.
 `#import "RCTCustom.h"` include the .h file defined,
 then our implementation code 
