@@ -8,12 +8,18 @@
 
 #import "RCTCustom.h"
 #import <RCTLog.h>
+#import "STKAudioPlayer.h"
+
 @implementation RCTCustom
 
 RCT_EXPORT_MODULE();
+
 RCT_EXPORT_METHOD(play:(NSString *)url)
 {
   RCTLogInfo(@"Pretending to create an event %@ ", url);
+  STKAudioPlayer* audioPlayer = [[STKAudioPlayer alloc] init];
+  
+  [audioPlayer play:url];
 }
 @end
 
