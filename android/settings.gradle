@@ -1,0 +1,3 @@
+rootProject.name = 'AudioStream2'
+
+include ':app'
